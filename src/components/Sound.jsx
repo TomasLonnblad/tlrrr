@@ -87,7 +87,7 @@ const Sound = () => {
       )}
 
       <audio ref={audioRef} loop>
-        <source src={"/audio/birds39-forest-20772.mp3"} type="audio/mpeg" />
+        <source src={"/audio/birds39-forest-2077.mp3"} type="audio/mpeg" />
         your browser does not support the audio element.
       </audio>
       <motion.button
@@ -99,11 +99,8 @@ const Sound = () => {
         aria-label={"Sound control button"}
         name={"Sound control button"}
       >
-        {isPlaying ? (
-          <Volume2
-            className="w-full h-full text-foreground group-hover:text-accent"
-            strokeWidth={1.5}
-          />
+        {isPlaying ? (2
+      
         ) : (
           <VolumeX
             className="w-full h-full text-foreground group-hover:text-accent"
